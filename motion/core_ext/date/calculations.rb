@@ -77,7 +77,7 @@ class Date
       plus_without_duration(other)
     end
   end
-  alias_method :plus_without_duration, :+
+#  alias_method :plus_without_duration, :+
   alias_method :+, :plus_with_duration
   
   def minus_with_duration(other) #:nodoc:
@@ -87,7 +87,7 @@ class Date
       minus_without_duration(other)
     end
   end
-  alias_method :minus_without_duration, :-
+#  alias_method :minus_without_duration, :-
   alias_method :-, :minus_with_duration
 
   # Provides precise Date calculations for years, months, and days. The +options+ parameter takes a hash with
